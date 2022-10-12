@@ -1,0 +1,6 @@
+urlwiki https://en.wikipedia.org/wiki/Wikipedia
+browser chrome
+timeout 10
+urlimdb https://www.imdb.com/
+browser chrome
+timeout 10
