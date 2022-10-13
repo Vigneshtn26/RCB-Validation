@@ -1,5 +1,7 @@
 package org.testvagrant.objectrepositories;
 
+import java.text.SimpleDateFormat;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -33,7 +35,8 @@ public class Wikipedia {
 	public String wikiMovieReleaseDate()
 	{
 		String rdate = wikiReleaseDate.getText();
-		System.out.println(rdate);
+		//SimpleDateFormat sdf=new SimpleDateFormat("dd MMMM y");
+		//System.out.println(sdf.format(rdate));
 		return rdate;
 	}
 	public String wikiMovieOrgin()

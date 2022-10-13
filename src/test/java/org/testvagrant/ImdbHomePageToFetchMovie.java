@@ -1,5 +1,7 @@
 package org.testvagrant;
 
+import java.text.SimpleDateFormat;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testvagrant.genericUtility.BaseClass;
@@ -21,7 +23,6 @@ public class ImdbHomePageToFetchMovie extends BaseClass
 			driver.get("https://en.wikipedia.org/wiki/Wikipedia");
 			wik.wikiMovieSearch();
 			String movieDate2 = wik.wikiMovieReleaseDate();
-			
 			String movieCountry2 = wik.wikiMovieOrgin();
            //Validation
 			if(movieDate.contains(movieDate2))

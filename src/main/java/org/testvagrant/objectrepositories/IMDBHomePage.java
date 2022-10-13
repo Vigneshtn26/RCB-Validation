@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class IMDBHomePage extends WikiPageToFetchMovie{
+public class IMDBHomePage{
 	WebDriver driver;
 	/**
 	 * This method is used to search the element in the search box
@@ -41,16 +41,6 @@ public class IMDBHomePage extends WikiPageToFetchMovie{
 		public String movieOrgin()
 		{
 			String org = origin.getText();
-			
 			return org;
 		}
-		
-		public void movieOfPushpa()
-		{
-			driver.get("https://www.google.co.in/");
-			
-		
-		}
-	
-
 }
