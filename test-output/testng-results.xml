@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-13T08:36:49 IST" name="Default suite" finished-at="2022-10-13T08:37:40 IST" duration-ms="51310">
+  <suite started-at="2022-10-13T19:55:49 IST" name="Default suite" finished-at="2022-10-13T19:56:39 IST" duration-ms="49697">
     <groups>
     </groups>
-    <test started-at="2022-10-13T08:36:49 IST" name="Default test" finished-at="2022-10-13T08:37:40 IST" duration-ms="51310">
-      <class name="org.testvagrant.ImdbHomePageToFetchMovie">
-        <test-method is-config="true" signature="classSetup()[pri:0, instance:org.testvagrant.ImdbHomePageToFetchMovie@23c30a20]" started-at="2022-10-13T08:36:49 IST" name="classSetup" finished-at="2022-10-13T08:37:02 IST" duration-ms="13481" status="PASS">
+    <test started-at="2022-10-13T19:55:49 IST" name="Default test" finished-at="2022-10-13T19:56:39 IST" duration-ms="49697">
+      <class name="org.testvagrant.ImdbAndWikiPagesValidation">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:org.testvagrant.ImdbAndWikiPagesValidation@23c30a20]" started-at="2022-10-13T19:55:49 IST" name="classSetup" finished-at="2022-10-13T19:55:56 IST" duration-ms="6951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classSetup -->
-        <test-method signature="imdbPushpaMovie()[pri:0, instance:org.testvagrant.ImdbHomePageToFetchMovie@23c30a20]" started-at="2022-10-13T08:37:02 IST" name="imdbPushpaMovie" finished-at="2022-10-13T08:37:39 IST" duration-ms="36727" status="PASS">
+        <test-method signature="ValidationOfImdbAndWikiPage()[pri:0, instance:org.testvagrant.ImdbAndWikiPagesValidation@23c30a20]" started-at="2022-10-13T19:55:56 IST" name="ValidationOfImdbAndWikiPage" finished-at="2022-10-13T19:56:38 IST" duration-ms="41547" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- imdbPushpaMovie -->
-        <test-method is-config="true" signature="classTearDown()[pri:0, instance:org.testvagrant.ImdbHomePageToFetchMovie@23c30a20]" started-at="2022-10-13T08:37:39 IST" name="classTearDown" finished-at="2022-10-13T08:37:40 IST" duration-ms="980" status="PASS">
+        </test-method> <!-- ValidationOfImdbAndWikiPage -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:org.testvagrant.ImdbAndWikiPagesValidation@23c30a20]" started-at="2022-10-13T19:56:38 IST" name="classTearDown" finished-at="2022-10-13T19:56:39 IST" duration-ms="1088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTearDown -->
-      </class> <!-- org.testvagrant.ImdbHomePageToFetchMovie -->
+      </class> <!-- org.testvagrant.ImdbAndWikiPagesValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

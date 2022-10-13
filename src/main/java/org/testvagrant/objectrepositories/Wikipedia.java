@@ -1,7 +1,5 @@
 package org.testvagrant.objectrepositories;
 
-import java.text.SimpleDateFormat;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -42,7 +40,6 @@ public class Wikipedia {
 	public String wikiMovieOrgin()
 	{
 		String org = wikiOrigin.getText();
-		System.out.println(org);
 		return org;
 	}
 }

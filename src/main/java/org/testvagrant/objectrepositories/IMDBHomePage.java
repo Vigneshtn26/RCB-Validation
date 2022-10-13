@@ -35,7 +35,6 @@ public class IMDBHomePage{
 		public String movieReleaseDate()
 		{
 			String rdate = releaseDate.getText();
-			System.out.println(rdate);
 			return rdate;
 		}
 		public String movieOrgin()
