@@ -13,5 +13,5 @@ System Type :-   64-bit Operating system
 Step 1------>Enter into the project "Testvagrant_Coding_Assessment".
 Step 2------>Click on src/test/java.
 Step 3------>Click on the package of org.Testvagrant.
-Step 4------>Enter into the class called "ImdbAndWikiPagesValidation.java"
+Step 4------>Enter into the class called "Rcbvalidation.java"
 Step 5------>Run the Code.
