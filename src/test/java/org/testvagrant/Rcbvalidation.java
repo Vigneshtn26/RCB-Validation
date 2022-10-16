@@ -13,6 +13,7 @@ import org.json.simple.parser.ParseException;
 public class Rcbvalidation {
 
 	public static void main(String[] args) throws  IOException, ParseException {
+		//RCB validation process through json
 		JSONParser parser = new JSONParser();
 	      try {
 	         Object obj = parser.parse(new FileReader("D:/Teamrcb/TeamRCB.json"));
